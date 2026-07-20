@@ -1,0 +1,6 @@
+Komponente,Funktion,Fehlerart,Auswirkung,S,A,E,RPN,Risiko,Empfohlene Maßnahme
+Führungsschiene,Präzise Linearführung des externen Schlittens,Verschleiß der Führungsschiene,"Erhöhtes mechanisches Spiel, ungenaue Positionierung",6,5,6,180,HIGH,Schmierintervall verkürzen; Verschleißgrenzwerte definieren und prüfen
+Kolbendichtung,Abdichtung der beiden Druckkammern,Dichtungsverschleiß/-riss,"Luftverlust zwischen den Kammern, Druckabfall, reduzierte Kraftübertragung",7,4,5,140,HIGH,Regelmäßige Dichtungsinspektion; verschleißfesteres Dichtungsmaterial prüfen
+Druckluftanschluss,Zuführung der Druckluft von der Versorgungsleitung,Undichte Verschraubung,"Leistungsverlust, erhöhter Luftverbrauch",3,6,7,126,HIGH,Drehmomentvorgabe für Verschraubung dokumentieren und prüfen
+Endlagendämpfung,Sanftes Abbremsen vor Erreichen der Endlage,Dämpfungsventil verstopft,"Harter mechanischer Anschlag, erhöhter Verschleiß, Beschädigungsrisiko",5,3,4,60,MEDIUM,Wartungsintervall für Dämpfungsventile festlegen
+Magnetkopplung,Kraftübertragung vom Kolben auf den externen Schlitten,Entkopplung bei Überlast,"Plötzlicher Kontrollverlust; Schlitten bleibt stehen, Kolben läuft weiter",8,2,3,48,MEDIUM,Überlast-Sensorik ergänzen; maximale Prozesskraft klar spezifizieren
