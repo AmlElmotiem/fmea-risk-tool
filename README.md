@@ -3,8 +3,9 @@
 A structured tool for conducting an FMEA (Failure Mode and Effects
 Analysis) — the standard quality/risk-assessment method referenced in
 ISO 13485, MDR, and virtually every medical device quality process —
-applied here to a real component from this portfolio's CAD work (a
-rodless pneumatic cylinder).
+applied here to a real mechanical component: a rodless pneumatic
+cylinder I designed in SolidWorks as part of a design-engineering
+course at Jade Hochschule Wilhelmshaven.
 
 ![FMEA risk chart](results/fmea_risk_chart.png)
 
@@ -18,8 +19,13 @@ addressed first.*
 FMEA appears on almost every quality-focused resume and job posting in
 medical device engineering, but it's rarely something a student
 portfolio actually *demonstrates* — usually it's just a listed skill.
-This project closes that gap: a working tool that performs a real FMEA
-end to end, from rating a failure mode to a ranked, actionable report.
+This project closes that gap by connecting two pieces of prior
+coursework that are normally kept separate: a mechanical design built
+in CAD, and a proper quality-engineering risk analysis of that same
+design. Rather than picking an abstract textbook example, every
+failure mode below is grounded in the actual geometry and function of
+the rodless cylinder — how its guide rail, seals, magnetic coupling,
+and cushioning valve can fail, and what that means in practice.
 
 ## What it does
 
@@ -32,10 +38,11 @@ end to end, from rating a failure mode to a ranked, actionable report.
   and a horizontal bar chart, colored by risk band, with the action
   threshold marked.
 - **`scripts/run_fmea_demo.py`** — a complete worked example: an FMEA
-  of a rodless pneumatic cylinder (five real, plausible failure modes:
-  seal wear, guide rail wear, magnetic decoupling under overload,
-  clogged end-cushioning valve, a loose fitting), demonstrating the
-  tool on a genuine mechanical component rather than an abstract example.
+  of the rodless pneumatic cylinder from my SolidWorks coursework (five
+  real, plausible failure modes: seal wear, guide rail wear, magnetic
+  decoupling under overload, clogged end-cushioning valve, a loose
+  fitting), each traceable to a specific component in the CAD assembly
+  rather than an abstract textbook example.
 
 ## Getting started
 
@@ -47,6 +54,9 @@ python scripts/run_fmea_demo.py  # regenerates the report and chart
 
 ## Roadmap
 
+- Add a render/screenshot of the SolidWorks assembly alongside the
+  failure mode table, so each entry can be traced visually back to the
+  actual part
 - Add a second real FMEA example from a software/embedded context
   (tying together this project and the other testing-focused ones in
   this portfolio)
