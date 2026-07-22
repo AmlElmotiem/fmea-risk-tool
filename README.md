@@ -38,11 +38,12 @@ and cushioning valve can fail, and what that means in practice.
   and a horizontal bar chart, colored by risk band, with the action
   threshold marked.
 - **`scripts/run_fmea_demo.py`** — a complete worked example: an FMEA
-  of the rodless pneumatic cylinder from my SolidWorks coursework (five
+  of the rodless pneumatic cylinder from my SolidWorks coursework (six
   real, plausible failure modes: seal wear, guide rail wear, magnetic
   decoupling under overload, clogged end-cushioning valve, a loose
-  fitting), each traceable to a specific component in the CAD assembly
-  rather than an abstract textbook example.
+  fitting, position sensor signal drift), each traceable to a specific
+  component in the CAD assembly rather than an abstract textbook
+  example.
 
 ## Getting started
 

@@ -62,6 +62,14 @@ def build_analysis() -> FMEAAnalysis:
         severity=3, occurrence=6, detection=7,
         recommended_action="Drehmomentvorgabe für Verschraubung dokumentieren und prüfen",
     ))
+    analysis.add(FailureMode(
+        component="Positionssensor",
+        function="Erfassung der Schlittenposition für die Steuerung",
+        failure_mode="Signaldrift des Reed-Sensors",
+        effect="Steuerung erhält falsche Positionsrückmeldung, Fehlpositionierung möglich",
+        severity=6, occurrence=3, detection=6,
+        recommended_action="Sensor-Plausibilisierung in Steuerung ergänzen; Kalibrierintervall festlegen",
+    ))
     return analysis
 
 
